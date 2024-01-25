@@ -454,7 +454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:>=16":
+"@types/react@npm:>=16, @types/react@npm:^18.2.48":
   version: 18.2.48
   resolution: "@types/react@npm:18.2.48"
   dependencies:
@@ -1355,11 +1355,13 @@ __metadata:
   resolution: "front-react-gestaofinanceira-document@workspace:."
   dependencies:
     "@types/node": "npm:^20.11.6"
+    "@types/react": "npm:^18.2.48"
     next: "npm:^14.1.0"
     nextra: "npm:^2.13.2"
     nextra-theme-docs: "npm:^2.13.2"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -3410,6 +3412,26 @@ __metadata:
   version: 1.4.0
   resolution: "type-fest@npm:1.4.0"
   checksum: a3c0f4ee28ff6ddf800d769eafafcdeab32efa38763c1a1b8daeae681920f6e345d7920bf277245235561d8117dab765cb5f829c76b713b4c9de0998a5397141
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: e33cef99d82573624fc0f854a2980322714986bc35b9cb4d1ce736ed182aeab78e2cb32b385efa493b2a976ef52c53e20d6c6918312353a91850e2b76f1ea44f
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 1d0a5f4ce496c42caa9a30e659c467c5686eae15d54b027ee7866744952547f1be1262f2d40de911618c242b510029d51d43ff605dba8fb740ec85ca2d3f9500
   languageName: node
   linkType: hard
 
