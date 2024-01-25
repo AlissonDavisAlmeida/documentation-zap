@@ -1,0 +1,10 @@
+{
+    "index": "Início",
+    "pages": "Páginas",
+    "contact": "Contato",
+    "bitbucket-link": {
+        "title": "Repositório Bitbucket da Zap",
+        "href": "https://bitbucket.org/zapsistemas-cfi/",
+        "newWindow": true
+    }
+}
